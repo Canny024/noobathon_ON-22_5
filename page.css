@@ -26,7 +26,7 @@ h1{
     text-align: center;
     font-size: 70px;
     margin-left: 50px;
-    background: linear-gradient(to right, rgba(204, 0, 255, 0.422) 0%, rgba(255, 192, 217, 0.97) 100%);
+    background: linear-gradient(to right, rgba(47, 0, 255, 0.904) 0%, rgba(255, 0, 60, 0.97) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
