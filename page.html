@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<style>
+    #voiceList {
+        visibility: hidden;
+    }
+</style>
+<body>
+    <header>
+        <img src=".//a1.png" alt="image file"  style="height: 150px; width: 150px; float: left;" class="img">
+        <img src=".//a2.png" alt="image file" style="height: 150px; width: 150px; float: right;"class="img">
+        <h1 class="text">YOUR CHILD'S FIRST TUTOR</h1>
+        <img class="animations" src=".//a3.png" alt="image file" style="height: 150px; width: 150px;">
+    </header>
+    <select id='voiceList'></select> <br><br>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1"><button class="btnn abc">A</button><br><br><button class="words abc" style="margin: 25px;">APPLE</button><button class="words abc" style="margin-right: 5px;">ARROW</button></div>
+        <div class="flex-item" id="flex-item-2"><button class="btnn abc">B</button><br><br><button class="words abc" style="margin: 25px;">BAT</button><button class="words abc"style="margin-right: 5px;">BALL</button></div>
+        <div class="flex-item" id="flex-item-3"><button class="btnn abc">C</button><br><br><button class="words abc" style="margin: 25px;">CAT</button><button class="words abc"style="margin-right: 5px;">COW</button></div>
+        <div class="flex-item" id="flex-item-4"><button class="btnn abc">D</button><br><br><button class="words abc" style="margin: 25px;">DOG</button><button class="words abc"style="margin-right: 5px;">DOLL</button></div>
+        <div class="flex-item" id="flex-item-5"><button class="btnn abc">E</button><br><br><button class="words abc" style="margin: 25px;">EYE</button><button class="words abc"style="margin-right: 5px;">EAR</button></div>
+        <div class="flex-item" id="flex-item-6"><button class="btnn abc">F</button><br><br><button class="words abc" style="margin: 25px;">FISH</button><button class="words abc"style="margin-right: 5px;">FRUIT</button></div>
+        <div class="flex-item" id="flex-item-7"><button class="btnn abc">G</button><br><br><button class="words abc" style="margin: 25px;">GOAT</button><button class="words abc"style="margin-right: 5px;">GOD</button></div>
+        <div class="flex-item" id="flex-item-8"><button class="btnn abc">H</button><br><br><button class="words abc" style="margin: 25px;">HAND</button><button class="words abc"style="margin-right: 5px;">HEN</button></div>
+        <div class="flex-item" id="flex-item-9"><button class="btnn abc">I</button><br><br><button class="words abc" style="margin: 25px;">INK</button><button class="words abc"style="margin-right: 5px;">ICE</button></div>
+        <div class="flex-item" id="flex-item-10"><button class="btnn abc">J</button><br><br><button class="words abc" style="margin: 25px;">JOKER</button><button class="words abc"style="margin-right: 5px;">JAIL</button></div>
+        <div class="flex-item" id="flex-item-11"><button class="btnn abc">K</button><br><br><button class="words abc" style="margin: 25px;">KITE</button><button class="words abc" style="margin-right: 5px;">KING</button></div>
+        <div class="flex-item" id="flex-item-12"><button class="btnn abc">L</button><br><br><button class="words abc" style="margin: 25px;">LAND</button><button class="words abc"style="margin-right: 5px;">LOVE</button></div>
+        <div class="flex-item" id="flex-item-13"><button class="btnn abc">M</button><br><br><button class="words abc" style="margin: 25px;">MONKEY</button><button class="words abc"style="margin-right: 5px;">MILK</button></div>
+        <div class="flex-item" id="flex-item-14"><button class="btnn abc">N</button><br><br><button class="words abc" style="margin: 25px;">NIGHT</button><button class="words abc" style="margin-right: 5px;">NAIL</button></div>
+        <div class="flex-item" id="flex-item-15"><button class="btnn abc">O</button><br><br><button class="words abc" style="margin: 25px;">OIL</button><button class="words abc"style="margin-right: 5px;">OCEAN</button></div>
+        <div class="flex-item" id="flex-item-16"><button class="btnn abc">P</button><br><br><button class="words abc" style="margin: 25px;">PIG</button><button class="words abc"style="margin-right: 5px;">PEN</button></div>
+        <div class="flex-item" id="flex-item-17"><button class="btnn abc">Q</button><br><br><button class="words abc" style="margin: 25px;">QUEEN</button><button class="words abc" style="margin-right: 5px;">QUICK</button></div>
+        <div class="flex-item" id="flex-item-18"><button class="btnn abc" >R</button><br><br><button class="words abc" style="margin: 25px;">RAT</button><button class="words abc" style="margin-right: 5px;">ROAD</button></div>
+        <div class="flex-item" id="flex-item-19"><button class="btnn abc">S</button><br><br><button class="words abc" style="margin: 25px;">SUN</button><button class="words abc"style="margin-right: 5px;">SHIP</button></div>
+        <div class="flex-item" id="flex-item-20"><button class="btnn abc">T</button><br><br><button class="words abc" style="margin: 25px;">TOY</button><button class="words abc"style="margin-right: 5px;">TREE</button></div>
+        <div class="flex-item" id="flex-item-21"><button class="btnn abc">U</button><br><br><button class="words abc" style="margin: 25px;">UNITY</button><button class="words abc"style="margin-right: 5px;">URBAN</button></div>
+        <div class="flex-item" id="flex-item-22"><button class="btnn abc">V</button><br><br><button class="words abc" style="margin: 25px;">VILLAGE</button><button class="words abc"style="margin-right: 5px;">VAN</button></div>
+        <div class="flex-item" id="flex-item-23"><button class="btnn abc">W</button><br><br><button class="words abc" style="margin: 25px;">WATCH</button><button class="words abc" style="margin-right: 5px;">WALL</button></div>
+        <div class="flex-item" id="flex-item-24"><button class="btnn abc">X</button><br><br><button class="words abc" style="margin: 25px;">XEROX</button><button class="words abc" style="margin-right: 5px;">XRAY</button></div>
+        <div class="flex-item" id="flex-item-25"><button class="btnn abc">Y</button><br><br><button class="words abc" style="margin: 25px;">YELLOW</button><button class="words abc"style="margin-right: 5px;">YOGA</button></div>
+        <div class="flex-item" id="flex-item-26"><button class="btnn abc">Z</button><br><br><button class="words abc" style="margin: 25px;">ZEBRA</button><button class="words abc" style="margin-right: 5px;">ZOO</button></div>
+    </div>
+    <div>
+        <img class="animations" src=".//a4.png" alt="img file" style="height: 150px; width: 150px;">
+    </div>
+    <footer">
+        <div style="float: left;">
+            <p>@NOOB CODERS</p>
+        </div>
+        <div style="float: right;">
+            <p>NIT WARANGAL</p>
+        </div>
+    </footer>
+    <script src="page.js"></script>
+</body>
+
+</html>
